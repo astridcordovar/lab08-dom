@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 08 - DOM, eventos y objetos</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 640px; margin: 30px auto; }
+    section { border: 1px solid #ccc; padding: 12px; margin-bottom: 16px; }
+    .destacado { background: #fff3cd; }
+    .error { color: #c0392b; }
+  </style>
+</head>
+
+<body>
+  <h1>Mi primera página interactiva</h1>
+
+  <section>
+    <h2>Ejercicio 6: Lista de Tareas</h2>
+
+    <form id="formTarea">
+        <input id="tarea" type="text" placeholder="Escribe tu tarea">
+        <input id="hora" type="number" placeholder="Horas de duración">
+        <button type="submit">Agregar</button>
+    </form>
+    <ul id="tareas"></ul>
+  </section>
+
+  <script src="app.js"></script>
+</body>
